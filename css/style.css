@@ -1,14 +1,41 @@
-body{
+*{
     background-color: black;
     margin: 0;
     padding: 0;
     font-family: arial;
 }
-/* section .banner{
-    position: relative;
-} */
-.banner img{
-    background-image: url('img/banner.jpg');
-    background-size: cover;
-    /* background-repeat: no-repeat; */
+header{
+    background-color: tomato;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 1;
 }
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    background-color: tomato;;
+}
+.main-image{
+    position: relative;
+}
+.main-image img{
+    max-width: 100%;
+}
+.main-image h2{
+    background-color: rgba(82, 60, 11, 0.3);
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left 0;
+    top: 30%;
+    font-size: 74px;
+    max-width: 100%;
+}
+
