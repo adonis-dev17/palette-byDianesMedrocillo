@@ -20,14 +20,15 @@ header h1{
     padding: 6px 12px;
     display: inline-block;
     border-radius: 36px;
-    background-color: tomato;;
+    background-color: tomato;
+
 }
 .main-image{
     position: relative;
 }
 .main-image img{
     max-width: 100%;
-}
+    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);}
 .main-image h2{
     background-color: rgba(82, 60, 11, 0.3);
     color: white;
@@ -37,5 +38,7 @@ header h1{
     top: 30%;
     font-size: 74px;
     max-width: 100%;
+    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);}
+
 }
 
