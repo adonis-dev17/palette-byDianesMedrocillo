@@ -28,7 +28,9 @@ header h1{
 }
 .main-image img{
     max-width: 100%;
-    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);}
+    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);
+    
+}
 .main-image h2{
     background-color: rgba(82, 60, 11, 0.3);
     color: white;
@@ -38,7 +40,10 @@ header h1{
     top: 30%;
     font-size: 74px;
     max-width: 100%;
-    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);}
-
+    clip-path: polygon(8% 93%, 93% 78%, 93% 23%, 6% 9%);
 }
-
+nav{
+    padding: 20px;
+    background-color:rgba(232, 168, 84, 0.1);
+    display: inline-block;
+}
